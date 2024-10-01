@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Онлайн или офлайн?</title>
+    <script>
+      function update(online) {
+        document.getElementById('status').textContent =
+        online ? 'Онлайн' : 'Офлайн';
+      }
+    </script>
+  </head>
+  <body ononline="update(true)"
+    onoffline="update(false)"
+    onload="update(navigator.onLine)">
+    <p>Вы: <span id="status">(Статус неизвестен)</span></p>
+    <article>
+        <header>
+            <h2><a href="https://herbert.io">Короткая заметка о ношении шорт</a></h2>
+            <p>Опубликовано в пятницу, 13 марта 2020 Патриком Люком.
+                <a href="https://herbert.io/short-note/#comments">6 комментариев</a></p>
+        </header>
+        <p>Попутчик задал интересный вопрос: почему вы носите шорты, а не длинные брюки? Человек носил брюки-кюлоты как время, поэтому я считал вопрос двусмысленным по своей природе, но я попытался дать честный ответ, несмотря на сомнительную одежду спрашивающего.</p>
+        <p>Короткий ответ: мне нравится носить шорты, длинный ответ ...</p>
+        <p><a href="https://herbert.io/short-note/">Продолжить чтение: Короткая заметка о ношении шорт</a></p>
+    </article>
+    <article>
+        <header>
+          <h2>Яблоки</h2>
+          <p>Вкусные, восхитительные фрукты!</p>
+        </header>
+        <p>Яблоко является плодом яблони.</p>
+        <section aria-label="Красные яблоки">
+          <h3>Ред Делишес</h3>
+          <p>Эти ярко-красные яблоки чаще всего встречаются во многих супермаркетах.</p>
+        </section>
+        <section aria-label="Зеленые яблоки">
+          <h3>Гренни Смит</h3>
+          <p>Эти сочные зеленые яблоки станут отличной начинкой для яблочных пирогов.</p>
+        </section>
+      </article>
+      <section>
+        <h1>Заметки о природе</h1>
+          <article>
+            <h2>...</h2>
+            <p>...</p>
+          </article>
+          <article>
+            <h2>...</h2>
+            <p>...</p>
+          </article>
+      </section>
+      <section>
+        <h1>Исторические заметки</h1>
+          <article>
+            <h2>...</h2>
+            <p>...</p>
+          </article>
+          <article>
+            <h2>...</h2>
+            <p>...</p>
+          </article>
+      </section>
+   
+        <h1>Вики-центр</h1>
+        <nav>
+          <ul>
+            <li><a href="/">Главная</a></li>
+            <li><a href="/events">Текущие события</a></li>
+            ...
+          </ul>
+        </nav>
+        <article>
+          <header>
+            <h2>Афиша мероприятий</h2>
+          </header>
+          <nav>
+            <ul>
+              <li><a href="#public">Лекции</a></li>
+              <li><a href="#practice">Практические занятия</a></li>
+              ...
+            </ul>
+          </nav>
+          <div>
+            <section id="public">
+              <h2>Лекции</h2>
+              <p>...</p>
+            </section>
+            <section id="practice">
+              <h2>Практические занятия</h2>
+              <p>...</p>
+            </section>
+            ...more...
+          </div>
+          <footer>
+            <p><a href="?edit">Редактировать</a> | <a href="?delete">Удалить</a> | <a href="?rename">Переименовать</a></p>
+          </footer>
+        </article>
+        <footer>
+          <p><small>© 2026 Вики-центр</small></p>
+        </footer>
+ 
+        <header>
+          <h1>Мой замечательный блог</h1>
+          <p>Мой слоган</p>
+        </header>
+        <aside>
+          <nav>
+            <h2>Мой блогролл</h2>
+            <ul>
+              <li><a href="https://blog.example.com/">Интересная ссылка</a>
+            </ul>
+          </nav>
+          <nav>
+            <h2>Архивы</h2>
+            <ol reversed>
+              <li><a href="/last-post">Моя последняя запись</a>
+              <li><a href="/first-post">Моя первая запись</a>
+            </ol>
+          </nav>
+        </aside>
+        <aside>
+          <h2>Мой Twitter</h2>
+          <blockquote cite="https://twitter.example.net/t31351234">
+            Я в отпуске, пишу для своего блога.
+          </blockquote>
+          <blockquote cite="https://twitter.example.net/t31219752">
+            Я скоро пойду в отпуск.
+          </blockquote>
+        </aside>
+        <article>
+          <h2>Моя последняя запись</h2>
+          <p>Это моя последняя запись.</p>
+          <footer>
+            <p><a href="/last-post" rel=bookmark>Ссылка</a>
+          </footer>
+        </article>
+        <article>
+           <h2>Моя первая запись</h2>
+          <p>Это моя первая запись.</p>
+          <aside>
+              <h1>Публикация</h1>
+              <p>Пока я думаю об этом, я хотел бы сказать кое-что о публикациях. Опубликовывать статьи - это весело!</p>
+          </aside>
+          <footer>
+            <p><a href="/first-post" rel="bookmark">Ссылка</a></p>
+          </footer>
+        </article>
+        <footer>
+          <nav>
+            <a href="/archives">Архивы</a> — <a href="/about">Обо мне</a> — <a href="/copyright">Copyright</a>
+          </nav>
+        </footer>
+   
+ 
+        <h1>Заголовок верхнего уровня</h1>
+         <section><h2>Заголовок второго уровня</h2>
+          <section><h3>Заголовок третьего уровня</h3>
+           <section><h4>Заголовок четвертого уровня</h4>
+            <section><h5>Заголовок пятого уровня</h5>
+             <section><h6>Заголовок шестого уровня</h6>
+             </section>
+            </section>
+         </section>
+        </section>
+        </section>
+   
+        <footer>
+            <nav>
+              <section>
+                <h2>Статьи</h2>
+                <p><img src="images/somersaults.jpeg" alt=""> Посетить спортзал с нашим классом сальто! Наш учитель Джим проведет вас через шаги в этой статье из двух частей. <a href="articles/somersaults/1">Часть 1</a> · <a href="articles/somersaults/2">Часть 2</a></p>
+                <p><img src="images/crisps.jpeg"> Чипсы закончились, теперь осталась только картошка. Что вы можете с этим сделать? <a href="articles/crisps/1">Читать далее...</a></p>
+              </section>
+              <ul>
+                <li> <a href="/about">О нас...</a>
+                <li> <a href="/feedback">Связаться с нами!</a>
+                <li> <a href="/sitemap">Карта сайта</a>
+              </ul>
+            </nav>
+            <p><small>© 2020 The Snacker — <a href="/tos">Условия обслуживания</a></small></p>
+          </footer>
+        </body>
+
+</html>

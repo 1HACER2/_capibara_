@@ -1,0 +1,72 @@
+body {
+    background-image: url('https://community.adobe.com/legacyfs/online/95443_Opera-Background-Light-Blue.jpg'); /* Укажите путь к вашему изображению */
+    background-size: cover; /* Изображение будет покрывать весь экран */
+    background-repeat: no-repeat; /* Изображение не будет повторяться */
+    background-attachment: fixed; /* Фон будет фиксированным при прокрутке */
+}
+
+.hacker-title {
+   
+    font-weight: 900;
+    color: #3a6330; 
+    text-align: center; 
+    margin: 20px 0; 
+    font-stretch: ultra-expanded;
+    font-style: italic;
+    text-align: center;
+}
+
+.hacker3 {
+    font-size: 24px; /* Размер шрифта */
+    color: #4A90E2; /* Цвет текста */
+    text-align: left; /* Выравнивание по  */
+    font-family: 'Arial', sans-serif; /* Шрифт */
+    font-stretch: ultra-expanded;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Тень текста */
+}
+
+.custom-nav {
+    list-style-type: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    display: flex; /* Используем flexbox для выравнивания в строку */
+    justify-content: space-around; /* Распределяем элементы по всей ширине */
+}
+.nav-item {
+    margin: 0 10px; /* Добавляем отступы между элементами */
+    text-align: center; /* Центрируем текст и изображения */
+}
+.nav-item img {
+    display: block; /* Делаем изображения блочными элементами */
+    margin: 0 auto; /* Центрируем изображения */
+}
+
+.hacker2 {
+   
+    font-weight: 900;
+    color: #5e03b3; 
+    text-align: center; 
+    margin: 20px 0; 
+    font-stretch: ultra-expanded;
+    font-style: italic;
+    text-align: center;
+}
+a:link {
+    color: #497DDD; 
+    border-bottom: 1px dashed; 
+  }
+  a:visited {
+    color: #EF7D55;
+  }
+  a:hover {
+    color: #154088; 
+    border-bottom: .07em solid;
+  }
+  a:active {
+    color: #497DDD; 
+    border-bottom: 1px dashed;
+  }
+  @viewport {
+    width: device-width;
+    initial-scale: 1.0;
+}
+
