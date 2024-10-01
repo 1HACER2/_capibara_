@@ -65,8 +65,25 @@ a:link {
     color: #497DDD; 
     border-bottom: 1px dashed;
   }
-  @viewport {
-    width: device-width;
-    initial-scale: 1.0;
-}
+  /*ДЛЯ ТЕЛЕФОНА*/
+@media (min-width: 320px) and (max-width: 1440px) {
+    body {
+        font-size: 16px; /* Устанавливаем базовый размер шрифта */
+        padding: 10px; /* Отступы для удобства чтения */
+    }
 
+    .container {
+        max-width: 100%; /* Контейнер занимает всю ширину экрана */
+        padding: 20px; /* Отступы внутри контейнера */
+    }
+
+    img {
+        max-width: 100%; /* Изображения адаптивные */
+        height: auto; /* Сохраняем пропорции изображений */
+    }
+
+    button {
+        padding: 10px 15px; /* Удобные размеры кнопок */
+        font-size: 16px; /* Размер шрифта для кнопок */
+    }
+}
